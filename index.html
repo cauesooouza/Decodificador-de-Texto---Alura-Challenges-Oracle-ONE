@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador - Challenge Alura</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="module" src="./assets/script/controler.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>a</h1>
+    </header>
+    <main>
+        <section>
+            <textarea name="input_msg" id="input_msg"  rows="20" placeholder="Digite seu texto" maxlength="664"  required></textarea>
+            <div>
+                <small>Apenas letras minúsculas e sem acento.</small>
+                <div>
+                    <button class="crypt">Criptografar</button>
+                    <button class="decrypt">Descriptografar</button>
+                </div>
+            </div>
+        </section>
+        <aside>
+            <p id="whiteboard"></p>
+            <div id="toBeEmpty">
+                <img src="./assets/img/lookingfor.jpg" alt="looking for">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <button class="copy">Copiar</button>
+        </aside>
+    </main>
+</body>
+</html>
